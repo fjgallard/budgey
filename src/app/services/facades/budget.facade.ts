@@ -26,6 +26,18 @@ export class BudgetFacade {
     });
   }
 
+  createBudget(budget: Budget) {
+    return this.budgetService.create(budget);
+  }
+
+  updateBudget(budget: Budget) {
+    return this.budgetService.update(budget);
+  }
+
+  deleteBudget(id: string) {
+    return this.budgetService.delete(id);
+  }
+
   reset() {
     this.$budgets.next(null);
   }

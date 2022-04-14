@@ -3,6 +3,7 @@ export interface Budget {
   name: string;
   amount: number;
   recurrence: BudgetRecurrence;
+  order: number;
 }
 
 export enum BudgetRecurrence {
