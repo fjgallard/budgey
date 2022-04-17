@@ -19,7 +19,8 @@
       "@libs/*": [ "src/app/libs/*" ],
       "@pages/*": [ "src/app/pages/*" ],
       "@services/*": [ "src/app/services/*" ],
-      "@shared/*": [ "src/app/shared/*" ]
+      "@shared/*": [ "src/app/shared/*" ],
+      "@tabs/*": [ "src/app/containers/tabs/*" ]
     }
   },
   "angularCompilerOptions": {
